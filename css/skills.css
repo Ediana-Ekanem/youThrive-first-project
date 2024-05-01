@@ -6,7 +6,7 @@
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
-  gap: 4rem;
+  gap: 8rem;
 }
 
 .grid-icons img {
@@ -25,7 +25,7 @@
 }
 
 .my-skill-header {
-  margin: 2.5rem 0;
+  margin: 3rem 0;
 }
 
 .grid-icons p {
@@ -37,7 +37,7 @@
 .flex-icons {
   display: flex;
   justify-content: space-between;
-  gap: 5rem;
+  gap: 8rem;
 }
 
 .flex-icons img {
