@@ -29,12 +29,6 @@
   transition: all;
 }
 
-@media screen and (max-width: 400px) {
-  .dark-background ul {
-    gap: 1rem;
-  }
-}
-
 .image-grid {
   display: grid;
   grid-template-columns: repeat(3, 1fr); /* 3 columns with equal space */
@@ -63,5 +57,11 @@
     margin-top: -4px;
     padding: 0;
     object-fit: contain;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .dark-background ul {
+    gap: 1rem;
   }
 }
