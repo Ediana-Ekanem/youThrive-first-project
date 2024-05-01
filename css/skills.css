@@ -1,17 +1,12 @@
 .skill-section {
-  background: linear-gradient(0deg, #ffffff, #ffffff),
-    radial-gradient(
-      50% 50% at 50% 50%,
-      rgba(26, 21, 21, 0) 0%,
-      rgba(1, 1, 1, 0.16) 100%
-    );
+  background-color: #dbdada;
   margin: 0;
 }
 .grid-icons {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-template-rows: 1fr 1fr;
-  /* gap: 10; */
+  gap: 4rem;
 }
 
 .grid-icons img {
@@ -25,12 +20,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-right: 5rem;
-  margin-bottom: 5rem;
+  /* margin-right: 5rem; */
+  margin-bottom: 1rem;
 }
 
 .my-skill-header {
-  margin-bottom: 35px;
+  margin: 2.5rem 0;
 }
 
 .grid-icons p {
@@ -42,6 +37,7 @@
 .flex-icons {
   display: flex;
   justify-content: space-between;
+  gap: 5rem;
 }
 
 .flex-icons img {
@@ -50,9 +46,19 @@
   object-fit: contain;
 }
 
+.flex-icons p {
+  font-size: 0.8rem;
+  font-family: Montserrat;
+  margin-top: 0.5rem;
+}
+
 .flex-icons div {
-  margin-right: 6rem;
+  /* margin-right: 6rem; */
   margin-bottom: 5rem;
+}
+
+.last-div div {
+  margin-bottom: 0;
 }
 
 @media screen and (max-width: 740px) {
@@ -71,6 +77,10 @@
   .flex-icons div {
     margin-right: 0; /* Remove right margin */
     margin-bottom: 2rem; /* Add space between stacked icon groups */
+  }
+
+  .last-div div {
+    margin-bottom: 0;
   }
 
   .grid-icons {

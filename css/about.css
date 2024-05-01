@@ -1,0 +1,61 @@
+.about-section {
+  background-color: #d6d6d6;
+}
+
+.explore {
+  margin: 2rem 0;
+}
+
+.wrapper {
+  display: flex;
+}
+
+.wrapper img {
+  position: relative;
+  width: 1.5rem;
+  height: 1.5rem;
+  left: 2px;
+  top: -5px;
+}
+
+.wrapper h4 {
+  font-size: 0.7rem;
+}
+
+.outer-wrapper p {
+  width: 20rem;
+  font-size: 0.6rem;
+}
+
+.my-flex-container {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin-top: 3rem;
+  margin-bottom: 3rem;
+}
+
+.about-section .desktop-selector {
+  margin-top: 2.5rem;
+}
+
+@media screen and (max-width: 740px) {
+  .my-flex-container {
+    display: block;
+    margin-bottom: 0.5rem;
+    margin-top: 2rem;
+  }
+  .about-section {
+    padding: 0 1rem;
+  }
+  .outer-wrapper p {
+    width: 13rem;
+    font-size: 0.8rem;
+  }
+  .outer-wrapper {
+    margin-top: 1.5rem;
+  }
+  .about-section .desktop-selector {
+    margin-top: 1.5rem;
+  }
+}

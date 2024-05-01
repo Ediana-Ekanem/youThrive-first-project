@@ -21,14 +21,188 @@
 
     <!-- Css Links  -->
     <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/menu.css" />
+    <link rel="stylesheet" href="./css/header.css" />
     <link rel="stylesheet" href="./css/contact.css" />
     <link rel="stylesheet" href="./css/portfolio.css" />
     <link rel="stylesheet" href="./css/skills.css" />
+    <link rel="stylesheet" href="./css/about.css" />
     <link rel="stylesheet" href="./css/footer.css" />
   </head>
   <body>
+    <head class="header-section">
+      <div class="section-one">
+        <nav>
+          <ul>
+            <div>
+              <li>
+                <img
+                  class="desktop-logo"
+                  src="./assets/icons/logo.svg"
+                  alt="logo"
+                />
+              </li>
+              <li>
+                <img
+                  class="mobile-logo"
+                  src="./assets/icons/logo 2.svg"
+                  alt="logo"
+                />
+              </li>
+            </div>
+            <div>
+              <li class="desktop-menu">
+                <a href="#about ">About me</a>
+                <a href="#skills">Skills</a>
+                <a href="#portfolio">Portfolio</a>
+                <a id="contact" href="#my-contact">contact me</a>
+              </li>
+              <li class="mobile-menu dropdown">
+                <img src="./assets/icons/menu.svg" alt="menu" />
+                <div class="dropdown-content">
+                  <a href="#about">About me</a>
+                  <a href="#skills">Skills</a>
+                  <a href="#portfolio">Portfolio</a>
+                  <a id="contact" href="#my-contact">contact me</a>
+                </div>
+              </li>
+            </div>
+          </ul>
+
+          <div class="sub-section grid-container">
+            <div class="box1">
+              <div class="inner-box">
+                <div class="desktop-text">
+                  <h3>Hi, Iam</h3>
+
+                  <h1>Tomasz Gajda</h1>
+                  <p>Front-end Developer / Ui Designer</p>
+                </div>
+                <div class="mobile-text">
+                  <h3>my name is Thomas</h3>
+
+                  <h1>I'm A DEVELOPER</h1>
+                  <p>Front-end Developer / Ui Designer</p>
+                </div>
+                <img
+                  class="seperator"
+                  src="./assets/icons/separator-mobile.svg"
+                  alt=""
+                />
+                <div class="icons">
+                  <div class="desktop-icons">
+                    <div class="icon1 i">
+                      <img src="./assets/icons/@.svg" alt="" />
+                    </div>
+                    <div class="icon2 i">
+                      <img src="./assets/icons/git-black.svg" alt="git logo" />
+                    </div>
+                    <div class="icon3 i">
+                      <img src="./assets/icons/linkn.svg" alt="linkln logo" />
+                    </div>
+                  </div>
+                  <div class="mobile-icons">
+                    <div class="icon1 port">
+                      <img src="./assets/icons/port@.png" alt="" />
+                    </div>
+                    <div class="icon2 port">
+                      <img src="./assets/icons/portGit.png" alt="git logo" />
+                    </div>
+                    <div class="icon3 port">
+                      <img src="./assets/icons/portLN.png" alt="linkln logo" />
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="box2">
+              <p class="center-text">
+                this is not my photo, but I dearly hope to get one just like
+                this
+              </p>
+            </div>
+          </div>
+        </nav>
+
+        <div class="black-background">
+          <img
+            class="desktop-img"
+            src="./assets/images/black-background.jpg"
+            alt=""
+          />
+        </div>
+      </div>
+    </head>
     <main>
-      <section class="skill-section">
+      <section id="about" class="about-section">
+        <div class="container">
+          <div class="sub-container">
+            <h1 class="skill-header">ABOUT ME</h1>
+            <p class="section-paragraph">
+              Nulla in velit a metus rhoncus tempus. Nulla congue nulla vel sem
+              varius finibus. Sed ornare sit amet lorem sed viverra. In vel urna
+              quis libero viverra facilisis ut ac est.
+            </p>
+            <h4 class="sub-header explore">EXPLORE</h4>
+
+            <img
+              class="desktop-selector"
+              src="./assets/icons/separatorBlack 2.png"
+              alt=""
+            />
+
+            <div class="my-flex-container">
+              <div class="outer-wrapper">
+                <div class="wrapper">
+                  <img src="./assets/icons/designLogo.svg" alt="design Logo" />
+                  <h4>DESIGN</h4>
+                </div>
+                <p>
+                  I can design the site based on your needs and suggestions. I
+                  can also design the site from scratch and consult you during
+                  the job.
+                </p>
+              </div>
+              <div class="outer-wrapper box-3">
+                <div class="wrapper">
+                  <img
+                    src="./assets/icons/developmentLogo.svg"
+                    alt="development Logo"
+                  />
+                  <h4>DEVELOPMENT</h4>
+                </div>
+                <p>
+                  I can design the site based on your needs and suggestions. I
+                  can also design the site from scratch and consult you during
+                  the job.
+                </p>
+              </div>
+            </div>
+            <div class="outer-wrapper">
+              <div class="wrapper">
+                <img
+                  src="./assets/icons/maintenanceLogo.svg"
+                  alt="maintenance Logo"
+                />
+                <h4>Maintenance</h4>
+              </div>
+              <p>
+                I can design the site based on your needs and suggestions. I can
+                also design the site from scratch and consult you during the
+                job.
+              </p>
+            </div>
+
+            <img
+              class="desktop-selector"
+              src="./assets/icons/separatorBlack 2.png"
+              alt=""
+            />
+          </div>
+        </div>
+      </section>
+      <section id="skills" class="skill-section">
         <div class="container">
           <div class="sub-container">
             <div class="outer-container">
@@ -77,15 +251,19 @@
               <div class="flex-icons hide">
                 <div>
                   <img src="./assets/icons/node.png" alt="node logo" />
+                  <p>NODEJS</p>
                 </div>
                 <div>
                   <img src="./assets/icons/sql.svg" alt="mySql logo" />
+                  <p>MYSQL</p>
                 </div>
                 <div>
                   <img src="./assets/icons/mongoDB.png" alt="mongoDB logo" />
+                  <p>MONGODB</p>
                 </div>
                 <div>
                   <img src="./assets/icons/tsc.png" alt="typescript logo" />
+                  <p>TYPESCRIPT</p>
                 </div>
               </div>
 
@@ -93,25 +271,31 @@
                 <h4>OTHER SKILLS:</h4>
               </div>
 
-              <div class="flex-icons hide">
+              <div class="flex-icons hide last-div">
                 <div>
                   <img src="./assets/icons/ANG.svg" alt="ANG logo" />
+                  <p>ANGIELSKI</p>
+                  <p>C1/C2</p>
                 </div>
                 <div>
                   <img src="./assets/icons/HISZ.svg" alt="HISZ logo" />
+                  <p>HISZPANSKI</p>
+                  <p>B1/B2</p>
                 </div>
                 <div>
                   <img src="./assets/icons/c++.svg" alt="c++ logo" />
+                  <p>C++</p>
                 </div>
                 <div>
                   <img src="./assets/icons/c.svg" alt="c logo" />
+                  <p>C</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      <section class="portolio-section">
+      <section id="portfolio" class="portolio-section">
         <div class="portfolio-background">
           <div class="sub-container">
             <h1 class="skill-header">PORTFOLIO</h1>
@@ -136,7 +320,7 @@
           <img class="hide" src="./assets/images/port6.png" alt="Image 6" />
         </div>
       </section>
-      <section class="contact-section">
+      <section id="my-contact" class="contact-section">
         <div class="container">
           <div class="sub-container">
             <h1 class="skill-header">CONTACT</h1>

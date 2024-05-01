@@ -1,0 +1,267 @@
+.section-one {
+  max-width: 120rem;
+  position: relative;
+  height: 85vh;
+  background-color: #d7d7d7;
+  overflow: hidden;
+  /* width/ height */
+}
+
+.black-background img {
+  top: 0;
+  position: absolute;
+  transform: skew(-10deg);
+  left: 45%;
+  height: 90vh;
+  width: 100vw;
+  display: flex;
+}
+
+.section-one li img,
+.mobile-logo,
+.mobile-menu {
+  width: 2rem;
+}
+
+.section-one .mobile-logo {
+  display: none;
+}
+
+.section-one .mobile-menu {
+  display: none;
+}
+
+.section-one ul {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 1.3rem 5.25rem 2.25rem 6.25rem;
+}
+.section-one ul li a {
+  position: relative;
+  text-decoration: none;
+  margin-left: 20px;
+  color: white;
+  z-index: 3;
+}
+
+#contact {
+  color: black;
+  border-radius: 20px;
+  background-color: white;
+  text-transform: capitalize;
+  padding: 0.5rem 0.625rem;
+  font-weight: 600;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(300px, 1fr));
+}
+
+.box2 {
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+
+.box2 .center-text {
+  position: absolute;
+  bottom: 0rem;
+  word-spacing: 0rem;
+  left: calc(100% / 2 - 9.8rem);
+  background-color: transparent;
+  color: black;
+  width: 8rem;
+  height: 3.75rem;
+  font-family: Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue",
+    sans-serif;
+  text-align: justify;
+  line-height: normal;
+  font-size: 0.8rem;
+  font-weight: 400;
+  margin-bottom: 10px;
+}
+.box1 {
+  margin-top: 20px;
+}
+.mobile-text {
+  display: none;
+}
+
+.sub-section .box1,
+.sub-section .box2 {
+  display: flex;
+  align-items: center;
+  height: 70vh;
+}
+
+.sub-section .box1 {
+  padding-left: 10vw;
+  padding-top: 5vh;
+}
+
+.icons {
+  margin-top: 2rem;
+  display: flex;
+  align-items: center;
+}
+.icons .mobile-icons {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.icons .mobile-icons .port {
+  margin-right: 20px;
+}
+
+.icons .i {
+  background-color: #c4c4c4;
+  padding: 5px;
+  margin-right: 20px;
+  border-radius: 2px;
+  box-shadow: 0px 4px 4px 0px rgba((0, 0, 0, 0.25));
+  display: inline-flex; /* Ensure the icon container is inline-flex */
+  align-items: center; /* Align the icon vertically within its container */
+}
+.icons .i img {
+  width: 30px;
+  height: 30px;
+}
+
+.inner-box {
+  height: inherit;
+}
+
+.sub-section .box2 {
+  background-image: url("/assets/images/profile.png");
+  background-repeat: no-repeat;
+  background-position: left;
+  background-size: 70% 100%;
+}
+
+.desktop-text h3 {
+  margin-bottom: 5vh;
+}
+.desktop-text h1 {
+  margin-left: 0.2rem;
+}
+.mobile-text h3 {
+  font-weight: unset;
+  margin: 5px 0;
+}
+.mobile-text p {
+  margin-top: 5px;
+}
+.inner-box .seperator {
+  display: none;
+}
+.desktop-text p {
+  color: #909090;
+  font-size: 12px;
+  font-weight: bold;
+  margin-top: 3px;
+}
+.icons .mobile-icons {
+  display: none;
+}
+
+@media screen and (max-width: 870px) {
+  .section-one {
+    height: 120vh;
+  }
+  .black-background img {
+    display: none;
+  }
+  .section-one ul li a {
+    font-weight: 600;
+  }
+
+  .section-one nav ul {
+    background-color: black;
+    height: 3.5625rem;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+  }
+
+  .section-one .desktop-logo {
+    display: none;
+  }
+  .section-one .mobile-logo {
+    display: flex;
+  }
+  .section-one .desktop-menu {
+    display: none;
+  }
+  .section-one .mobile-menu {
+    display: flex;
+  }
+
+  .desktop-text {
+    display: none;
+  }
+  .mobile-text {
+    width: 100vw;
+    display: block;
+    margin: 190px auto 20px auto;
+  }
+  #contact {
+    color: black;
+    border-radius: unset;
+    text-transform: capitalize;
+    padding: 0.7rem 0.625rem;
+    margin: 0 auto;
+    font-weight: 600;
+  }
+  .sub-section .box2 {
+    display: none;
+  }
+  .sub-section .box1 {
+    color: #ffff;
+    display: block;
+    margin-top: 5px;
+    padding: 0;
+    width: 100%;
+    text-align: center; /* Center the content inside the box */
+  }
+
+  .section-one {
+    background-image: url("/assets/images/Background.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* object-fit: contain; */
+    background-position: center;
+    z-index: 50;
+  }
+  .icons {
+    display: block;
+    margin-bottom: 30rem;
+
+    padding: 0;
+    margin: 0 auto;
+  }
+  .grid-container {
+    display: unset;
+  }
+  .box1 {
+    display: unset;
+  }
+  .inner-boex {
+    display: unset;
+  }
+  .inner-box .seperator {
+    display: block;
+    margin: 0 auto 10px auto;
+  }
+  .icons .desktop-icons {
+    display: none;
+  }
+  .icons .mobile-icons {
+    display: flex;
+  }
+}
