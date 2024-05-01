@@ -24,7 +24,8 @@
   border-bottom: 0.15rem black solid;
   border-left: 0.15rem black solid;
   padding: 0 0 3px 3px;
-  width: 100%;
+  /* width: 100%; */
+  width: 30rem;
   height: 2rem;
 }
 
@@ -35,7 +36,8 @@
   border-bottom: 0.15rem black solid;
   border-left: 0.15rem black solid;
   padding: 0 0 5rem 3px;
-  width: 20rem;
+  width: 100%;
+
   height: 7rem;
 }
 
@@ -45,12 +47,12 @@
   font-weight: bold;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 740px) {
   .contact-section form input,
   .contact-section .message {
     font-size: 0.4rem; /* Decrease font size for smaller screens */
     padding: 0.5rem 0.5rem 2px 2px; /* Adjust padding for compactness */
-    width: 100%; /* Make inputs span full width */
+    width: 10rem; /* Make inputs span full width */
     height: auto; /* Allow height to adjust based on content */
   }
 
