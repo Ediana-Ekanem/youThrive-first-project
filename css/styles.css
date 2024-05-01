@@ -1,0 +1,65 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+html {
+  max-width: 120rem;
+  font-size: 1rem;
+  font-family: "Raleway", sans-serif;
+}
+
+.skill-header {
+  border: solid black 3px;
+  color: black;
+  padding: 0.5rem 1.2rem;
+  font-size: 1.3rem;
+  font-family: "Montserrat", sans-serif;
+  margin: 0 0 1.5rem 0;
+}
+
+.sub-header {
+  border-left: solid black 1.5px;
+  border-right: solid black 1.5px;
+  height: 0.8rem;
+  font-size: 0.5rem;
+  padding: 0.1rem 0.6rem;
+}
+
+.desktop-selector {
+  height: 0.5rem;
+}
+
+.container {
+  width: 92%;
+  margin: auto;
+  height: 100%;
+  border: solid red 3px;
+}
+
+.sub-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 3rem 0;
+}
+
+.section-paragraph {
+  max-width: 30rem;
+  font-size: 0.7rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1140px;
+  }
+}
+
+@media screen and (max-width: 740px) {
+  .section-paragraph {
+    padding: 0 1rem;
+  }
+}
