@@ -70,7 +70,7 @@
   position: absolute;
   bottom: 0rem;
   word-spacing: 0rem;
-  left: calc(100% / 2 - 9.8rem);
+  left: calc(100% / 2 - 10.2rem);
   background-color: transparent;
   color: black;
   width: 8rem;
@@ -81,7 +81,7 @@
   line-height: normal;
   font-size: 0.8rem;
   font-weight: 400;
-  margin-bottom: 10px;
+  margin-bottom: 25px;
 }
 .box1 {
   margin-top: 20px;
