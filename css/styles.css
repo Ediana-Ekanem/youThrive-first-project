@@ -21,10 +21,10 @@ html {
 }
 
 .sub-header {
-  border-left: solid black 1.5px;
-  border-right: solid black 1.5px;
+  border-left: solid black 1.8px;
+  border-right: solid black 1.8px;
   height: 0.8rem;
-  font-size: 0.5rem;
+  font-size: 0.7rem;
   padding: 0.1rem 0.6rem;
 }
 
