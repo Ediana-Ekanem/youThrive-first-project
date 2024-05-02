@@ -9,8 +9,8 @@
 .contact-section form input {
   display: flex;
   flex-direction: column;
-  margin-bottom: 1.5rem;
   background-color: #e5e4e4;
+  margin-bottom: 3.5rem;
 }
 
 .contact-section form input {
@@ -19,7 +19,7 @@
   font-size: 0.2;
   border-bottom: 0.15rem black solid;
   border-left: 0.15rem black solid;
-  padding: 0 0 3px 3px;
+  padding: 0 0 1rem 3px;
   /* width: 100%; */
   width: 30rem;
   height: 2rem;
@@ -33,7 +33,6 @@
   border-left: 0.15rem black solid;
   padding: 0 0 5rem 3px;
   width: 100%;
-
   height: 7rem;
 }
 
@@ -49,7 +48,14 @@
     font-size: 0.4rem; /* Decrease font size for smaller screens */
     padding: 0.5rem 0.5rem 2px 2px; /* Adjust padding for compactness */
     width: 10rem; /* Make inputs span full width */
-    height: auto; /* Allow height to adjust based on content */
+    height: 2rem; /* Allow height to adjust based on content */
+  }
+  .contact-section .message {
+    height: 4rem;
+  }
+
+  .contact-section form input {
+    margin-bottom: 1.5rem;
   }
 
   .contact-section form input::placeholder {

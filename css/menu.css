@@ -44,9 +44,10 @@
   display: block;
 }
 
-/* .dropdown:hover .dropdown-content #contact:hover {
+.dropdown:hover .dropdown-content #contact:hover {
   color: white;
-} */
+  background-color: black;
+}
 
 .dropdown-content a:hover {
   background-color: white;
@@ -67,5 +68,9 @@
   #contact:hover {
     background-color: white;
     color: black;
+  }
+  .dropdown:hover .dropdown-content #contact:hover {
+    color: black;
+    background-color: white;
   }
 }

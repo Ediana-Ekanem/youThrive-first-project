@@ -264,4 +264,8 @@
   .icons .mobile-icons {
     display: flex;
   }
+  #contact {
+    color: white;
+    background-color: black;
+  }
 }
