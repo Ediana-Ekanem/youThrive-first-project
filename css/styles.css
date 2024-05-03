@@ -7,7 +7,7 @@
 html {
   max-width: 120rem;
   font-size: 1rem;
-  font-family: "Raleway", sans-serif;
+  font-family: "Montserrat", sans-serif;
 }
 
 .skill-header {
@@ -15,7 +15,6 @@ html {
   color: black;
   padding: 0.5rem 2rem;
   font-size: 1rem;
-  font-family: "Montserrat", sans-serif;
   margin: 0 0 1.5rem 0;
   letter-spacing: 0.2rem;
 }

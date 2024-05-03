@@ -1,3 +1,4 @@
+/* Section One  */
 .section-one {
   max-width: 120rem;
   position: relative;
@@ -267,5 +268,120 @@
   #contact {
     color: white;
     background-color: black;
+  }
+}
+
+/* Section Two  */
+.section-two {
+  width: 100%;
+  position: relative;
+  padding: 20px 20px;
+  background-color: rgba(0, 0, 0, 0.9);
+}
+
+.content {
+  position: relative;
+  z-index: 10;
+  color: white;
+}
+.section-two h1 {
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+  font-size: 1rem;
+}
+.section-two p {
+  margin-bottom: 15px;
+  font-size: 0.6rem;
+  line-height: 0.8rem;
+  width: 100%;
+  max-width: 74%;
+}
+
+.section-two h3 {
+  font-size: 0.5rem;
+  width: 3.8rem;
+  height: 1rem;
+  border-left: solid white 1px;
+  border-right: solid white 1px;
+  padding: 2px 6px;
+}
+
+.IT-logo-desktop img {
+  width: 16rem;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.IT-logo-mobile img {
+  width: 10.5rem;
+  position: absolute;
+  top: 0;
+}
+
+.IT-logo-mobile {
+  display: none;
+}
+
+.sectionTwo-sub-header {
+  /* border: red 3px solid; */
+  border-left: solid white 1.8px;
+  border-right: solid white 1.8px;
+  height: 1rem;
+  font-size: 0.7rem;
+  padding: 0.1rem 0.5rem;
+  width: 5.8rem;
+}
+
+@media screen and (max-width: 870px) {
+  .section-two content {
+    padding: 2rem 0;
+  }
+
+  .section2-background img {
+    height: 80vh;
+    align-items: center;
+  }
+
+  .section-two h1 {
+    text-align: center;
+  }
+
+  .more-container {
+    display: flex;
+    justify-content: center;
+  }
+  .sectionTwo-sub-header {
+    text-align: center;
+    height: 1rem;
+    font-size: 0.7rem;
+    padding: 0.2rem 0.4rem;
+    width: 4rem;
+  }
+
+  .hide-more {
+    display: none;
+  }
+  .section-two h3 {
+    width: 3rem;
+    border-left: solid white 2px;
+    border-right: solid white 2px;
+    padding: 2px 8px;
+  }
+
+  .section-two p,
+  .section-two h3 {
+    margin: 15px auto;
+    text-align: justify;
+  }
+
+  .IT-logo-desktop {
+    display: none;
+  }
+  .IT-logo-mobile {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 10px;
   }
 }
