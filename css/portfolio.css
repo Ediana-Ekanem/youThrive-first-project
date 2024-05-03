@@ -54,7 +54,7 @@
   }
 
   .image-grid img {
-    margin-top: -4px;
+    margin-bottom: -2%;
     padding: 0;
     object-fit: contain;
   }
