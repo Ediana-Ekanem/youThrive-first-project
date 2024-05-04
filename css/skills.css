@@ -46,6 +46,13 @@
   object-fit: contain;
 }
 
+.flex-item {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
 .flex-icons p {
   font-size: 0.8rem;
   font-family: Montserrat;
